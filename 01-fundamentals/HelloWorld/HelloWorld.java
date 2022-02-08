@@ -1,6 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-import javax.swing.event.SwingPropertyChangeSupport;
-
 public class HelloWorld {
     // the entry point to our application is called the main method
     public static void main(String[] args) {
