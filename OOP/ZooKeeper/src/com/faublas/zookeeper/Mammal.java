@@ -3,23 +3,32 @@ package com.faublas.zookeeper;
 public class Mammal {
 	
 	//member variable 
-	protected int energylevel = 100;
+	protected int energyLevel = 100;
+	
+	public Mammal() {
+		super();
+	}
+		
+	//Loaded constructor
+	public Mammal(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
 	
 	
 	//Getters and Setters
 
-	public int getEnergylevel() {
-		return energylevel;
+	public int getEnergyLevel() {
+		return energyLevel;
 	}
 
 	public void setEnergylevel(int energylevel) {
-		this.energylevel = energylevel;
+		this.energyLevel = energylevel;
 	}
 	
 	//Method
 	public int displayEnergy() {
-		System.out.println("Level Up!!!!");
-		return this.energylevel;
+		System.out.println("Level Up!!!!  Current Energy level is: " + this.energyLevel);
+		return this.energyLevel;
 	}
 
 }
