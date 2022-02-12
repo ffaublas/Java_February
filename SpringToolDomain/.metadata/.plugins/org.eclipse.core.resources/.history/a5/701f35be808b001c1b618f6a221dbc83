@@ -1,0 +1,5 @@
+package com.faublas.movies;
+
+public class HomeController {
+
+}
