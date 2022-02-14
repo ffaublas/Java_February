@@ -12,7 +12,7 @@
 <body>
 	<h1>Fruit Store</h1>
 	
-<table class="table table-striped table-info table-sm table-bordered table-hover">
+<table class="table table-striped table-info table-sm table-bordered table-hover container">
   <thead class = "table-primary">
     <tr>
       <th scope="col">Name</th>
