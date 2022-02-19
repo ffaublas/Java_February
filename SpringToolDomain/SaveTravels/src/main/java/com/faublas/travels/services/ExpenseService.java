@@ -27,7 +27,7 @@ public class ExpenseService {
         return (List<ExpenseItem>) this.expenseRepo.findAll();
     }
 
-    // this method to create newexpense item accepts aexpenseItem instance as an
+    // this method to create new expense item accepts aexpenseItem instance as an
     // input and it will save it to the db using the repository
     public ExpenseItem createExpenseItem(ExpenseItem expenseItem) {
         return this.expenseRepo.save(expenseItem);
@@ -36,7 +36,7 @@ public class ExpenseService {
     // retrieves aexpenseItem by id. Given an id, this method will talk to the
     // repository to get something form the db that matches that given id
     public ExpenseItem findExpenseItem(Long id) {
-        // find aexpense item by the given id, if not found, return null (or else null)
+        // find an expense item by the given id, if not found, return null (or else null)
         return this.expenseRepo.findById(id).orElse(null);
     }
 

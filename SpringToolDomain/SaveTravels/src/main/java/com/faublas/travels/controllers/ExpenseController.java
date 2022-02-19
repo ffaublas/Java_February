@@ -109,7 +109,7 @@ public class ExpenseController {
 
 			this.expService.updateItem(expenseItemToEdit);
 
-			return "redirect:/expenseitems"; // redirect to the menuitems page
+			return "redirect:/expenseitems"; // redirect to the expense items page
 		}
 
 	}
