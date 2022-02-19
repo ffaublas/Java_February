@@ -12,7 +12,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome. Please register or login below</h1>
+        <h1>Welcome!</h1>
+        <p>Join our growing community.</p>
         <div class="row">
             <div class="col">
                 <h3>Register</h3>
