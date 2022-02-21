@@ -20,7 +20,7 @@
     <table class="table table-dark">
       <thead>
         <tr>
-          <th scope="col">#ID</th>
+          <th scope="col">ID</th>
           <th scope="col">Expense</th>
           <th scope="col">Vendor</th>
           <th scope="col">Amount</th>

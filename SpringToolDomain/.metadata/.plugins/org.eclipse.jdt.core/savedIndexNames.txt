@@ -10,7 +10,6 @@ INDEX VERSION 1.131+/Users/fritzfaublas/Desktop/Java - February/SpringToolDomain
 489170565.index
 2537751581.index
 2226125505.index
-3767897912.index
 3422861222.index
 3267216615.index
 1345248617.index

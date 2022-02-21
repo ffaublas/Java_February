@@ -61,7 +61,7 @@ public class ExpenseController {
 
 		model.addAttribute("expenseItem", expenseItem);
 
-		return "oneItem.jsp";
+		return "viewoneitem.jsp";
 	}
 
 	// create a expense item (post submission of the form)
